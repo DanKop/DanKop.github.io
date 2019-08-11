@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+p {
+    font-family: PlayfairDisplay-Regula;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #626262;
+}
+
+header {
+    margin-top: 4.3rem;
+    margin-left: 4.3rem;
+}
+
+.logo a {
+    color: #000;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    padding-left: 32.5rem;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    color: #626262;
+    text-decoration: none;
+    font-family: 'PlayfairDisplay-Regular';
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+nav li:not(:last-child) {
+    padding-right: 8.5rem;
+}
+
+nav a:hover {
+    color: #ff3f40;
+}
+
+.imgDesertGirls {
+    margin-left: 4.3rem;
+    margin-top: 5rem;
+}
+
+.imgDesertGirls img {
+    width: 96%;
+}
+
+.getAway {
+    margin-top: 6rem;
+    margin-left: 10rem;
+    margin-bottom: 8rem;
+}
+
+.getAway div>h3 {
+    padding-bottom: 1.1rem;
+}
+
+h3 {
+    color: #c7c1b6;
+    text-transform: uppercase;
+    font-family: Ubuntu-Light, sans-serif;
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-size: 0.9rem;
+}
+
+.getAway h2 {
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 2.8rem;
+    color: #626262;
+    padding-bottom: 1.5rem;
+}
+
+.getAway p {
+    padding-bottom: 2.5rem;
+    padding-right: 13rem;
+}
+
+.getAway a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.getAway div a h3:hover {
+    color: #ff3f40;
+}
+
+.fourImgs .fd-column {
+    padding-right: 3rem;
+    width: 27rem;
+}
+
+.fourImgs h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.fourImgs h2 {
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #626262;
+    padding-bottom: 2.5rem;
+}
+
+.fourImgs p {
+    padding-bottom: 8.3rem;
+}
+
+.spam {
+    padding-top: 4.5rem;
+    background-color: #f0f0f0;
+    padding-bottom: 4.5rem;
+}
+
+.spam h2 {
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: #333333;
+    padding-bottom: 3.5rem;
+}
+
+.spam input {
+    background-color: #f0f0f0;
+    padding: 0.3rem;
+    border: none;
+}
+
+.spam a {
+    padding-bottom: 5.5px;
+}
+
+hr {
+    border: 1.5px solid black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.twoImgs {
+    margin-top: 7rem;
+    margin-bottom: 4.5rem;
+}
+
+.loadMore a {
+    color: #626262;
+    text-decoration: none;
+    font-family: PlayfairDisplay-Regular, sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    padding: 1.4rem 2rem 1.4rem 2rem;
+    border: 1px solid #626262;
+}
+
+.space {
+    height: 81rem;
+}
+
+footer {
+    justify-content: space-between;
+    height: 6.5rem;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 600;
+    font-size: 14pt;
+    background-color: #f0f0f0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #101010;
+}
+
+footer a:hover {
+    color: #ff3f40;
+}
+
+.termsPrivacy a:first-child {
+    padding-left: 14rem;
+}
+
+.termsPrivacy a:last-child {
+    padding-left: 1rem;
+}
+
+footer h4 {
+    display: inline-block;
+}
+
+.socialNetworks {
+    padding-right: 1rem;
+}
+
+.socialNetworks a {
+    padding-left: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url('./assets/fonts/PlayFair/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url('./assets/fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1025px) {
+    header {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    nav ul {
+        padding-left: 62px;
+    }
+    .imgDesertGirls {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .imgDesertGirls img {
+        width: 100%;
+    }
+    .getAway {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .getAway p {
+        padding-right: 0rem;
+    }
+    .fourImgs {
+        margin-left: 0;
+    }
+    .d-flex {
+        flex-wrap: wrap;
+    }
+    .fourImgs .fd-column {
+        padding-right: 0;
+        width: 100%;
+    }
+    .fourImgs img {
+        width: 100%;
+    }
+    .fourImgs p {
+        padding-bottom: 3.3rem;
+    }
+    .twoImgs {
+        margin-bottom: 0rem;
+    }
+    .twoImgs img {
+        width: 100%;
+    }
+    .spam h2 {
+        font-size: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .spam input {
+        display: inline-block;
+        padding: 0;
+        width: 88%;
+    }
+    .spam a {
+        padding-bottom: 0;
+    }
+    .termsPrivacy a:first-child {
+        padding-left: 1rem;
+    }
+    .termsPrivacy a:last-child {
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    header {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    nav ul {
+        padding-left: 3rem;
+    }
+    .imgDesertGirls {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .imgDesertGirls img {
+        width: 100%;
+    }
+    .getAway {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .getAway p {
+        padding-right: 0rem;
+    }
+    .fourImgs {
+        margin-left: 0;
+    }
+    .d-flex {
+        flex-wrap: wrap;
+    }
+    .fourImgs .fd-column {
+        padding-right: 0;
+        width: 100%;
+    }
+    .fourImgs img {
+        width: 100%;
+    }
+    .fourImgs p {
+        padding-bottom: 3.3rem;
+    }
+    .twoImgs {
+        margin-bottom: 0rem;
+    }
+    .twoImgs img {
+        width: 100%;
+    }
+    .spam h2 {
+        font-size: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .spam input {
+        display: inline-block;
+        padding: 0;
+        width: 88%;
+    }
+    .spam a {
+        padding-bottom: 0;
+    }
+    .termsPrivacy a:first-child {
+        padding-left: 1rem;
+    }
+    .termsPrivacy a:last-child {
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    header {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    nav ul {
+        padding-left: 0;
+    }
+    .imgDesertGirls {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .imgDesertGirls img {
+        width: 100%;
+    }
+    .getAway {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .getAway p {
+        padding-right: 0rem;
+    }
+    .fourImgs {
+        margin-left: 0;
+    }
+    .d-flex {
+        flex-wrap: wrap;
+    }
+    .fourImgs .fd-column {
+        padding-right: 0;
+        width: 100%;
+    }
+    .fourImgs img {
+        width: 100%;
+    }
+    .fourImgs p {
+        padding-bottom: 3.3rem;
+    }
+    .twoImgs {
+        margin-bottom: 0rem;
+    }
+    .twoImgs img {
+        width: 100%;
+    }
+    .spam h2 {
+        font-size: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .spam input {
+        display: inline-block;
+        padding: 0;
+        width: 88%;
+    }
+    .spam a {
+        padding-bottom: 0;
+    }
+    .termsPrivacy a:first-child {
+        padding-left: 1rem;
+    }
+    .termsPrivacy a:last-child {
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .section_logo {
+        display: block;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .imgDesertGirls {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .imgDesertGirls img {
+        width: 100%;
+    }
+    .getAway {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .getAway p {
+        padding-right: 0rem;
+    }
+    .fourImgs {
+        margin-left: 0;
+    }
+    .d-flex {
+        flex-wrap: wrap;
+    }
+    .fourImgs .fd-column {
+        padding-right: 0;
+        width: 100%;
+    }
+    .fourImgs img {
+        width: 100%;
+    }
+    .fourImgs p {
+        padding-bottom: 3.3rem;
+    }
+    .twoImgs {
+        margin-bottom: 0rem;
+    }
+    .twoImgs img {
+        width: 100%;
+    }
+    .spam h2 {
+        font-size: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .spam input {
+        display: inline-block;
+        padding: 0;
+        width: 88%;
+    }
+    .spam a {
+        padding-bottom: 0;
+    }
+    .termsPrivacy a:first-child {
+        padding-left: 1rem;
+    }
+    .termsPrivacy a:last-child {
+        padding-left: 2rem;
+    }
+    .socialNetworks {
+        padding-left: 1rem;
+    }
+}
